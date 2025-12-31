@@ -1,10 +1,14 @@
-```
 🚀 Backend Developer Internship Assignment – Primetrade.ai
 
+```
 This project is a full-stack task management system built as part of the Backend Developer Internship Assignment.
 It demonstrates secure REST API design, JWT authentication, role-based access, and a modern React frontend.
+```
+
+
 
 📌 Features
+```
 🔐 Authentication & Authorization
 
 User registration & login
@@ -13,12 +17,13 @@ Password hashing using bcrypt
 
 JWT-based authentication
 
-Role support (user, admin)
-
 Protected routes
 
-📝 Task Management
+```
 
+
+📝 Task Management
+```
 Create, read, update, delete (CRUD) tasks
 
 Task status: pending / completed
@@ -30,9 +35,11 @@ Toggle task status
 Owner-based access control
 
 Admin override support
+```
+
 
 🎨 Frontend (React + Tailwind CSS)
-
+```
 Modern, responsive UI
 
 Login & Register pages
@@ -44,9 +51,11 @@ Protected dashboard
 Toast notifications
 
 Admin badge (decoded from JWT)
+```
+
 
 🧠 Developer Experience
-
+```
 Clean folder structure
 
 API versioning (/api/v1)
@@ -56,10 +65,11 @@ Centralized error handling
 Swagger API documentation
 
 Environment-based configuration
-
+```
 🛠 Tech Stack
-Backend
 
+Backend
+```
 Node.js
 
 Express.js
@@ -71,9 +81,9 @@ JWT Authentication
 bcrypt
 
 Swagger (OpenAPI)
-
+```
 Frontend
-
+```
 React (Vite)
 
 Tailwind CSS (v4)
@@ -83,8 +93,11 @@ Axios
 React Router
 
 react-hot-toast
+```
+
 
 📁 Project Structure
+```
 Primetrade_ai/
 ├── backend/
 │   ├── src/
@@ -106,8 +119,9 @@ Primetrade_ai/
 │   └── package.json
 │
 └── README.md
-
+```
 ⚙️ Setup Instructions
+```
 1️⃣ Clone Repository
 git clone https://github.com/Nishar-Ahmad1132/Primetrade.ai.git
 cd Primetrade_ai
@@ -124,7 +138,9 @@ MONGO_URI=mongodb://127.0.0.1:27017/primetrade
 JWT_SECRET=your_secret_key
 JWT_EXPIRE=15m
 
+```
 
+```
 Run backend:
 
 npm run dev
